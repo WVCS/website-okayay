@@ -1,3 +1,28 @@
-body {
+nav {
+  list-style-type: none;
+  background-color: #59D2FE;
+  position:fixed;
+  width: 150vw;
+  top:0;
+  left:0;
+  padding:24px;
+  text-alight: left;
+}
 
+li {
+  display:inline;
+  padding: 24px;
+  font-size: 20px;
+  font-family: Monaco, Monospace;
+  color: #363537;
+}
+li:hover {
+  background-color:#4A8FE7;
+  padding:24px;
+  font-size: 24px;
+}
+
+a {
+  text-decoration:none;
+  color: #363537;
 }
